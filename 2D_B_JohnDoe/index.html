@@ -1,0 +1,196 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        /* Simple beginner CSS styles */
+        body {
+            background-color: #222222;
+            color: #ffffff;
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 20px;
+        }
+        .container {
+            width: 800px;
+            margin: 0 auto;
+        }
+        header {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding-bottom: 20px;
+            border-bottom: 1px solid #444;
+        }
+        nav a {
+            color: #ffffff;
+            text-decoration: none;
+            margin-left: 20px;
+        }
+        .section {
+            padding: 40px 0;
+            border-bottom: 1px solid #444;
+        }
+        .services-box {
+            display: inline-block;
+            width: 45%;
+            margin: 10px;
+            padding: 20px;
+            vertical-align: top;
+        }
+        input, textarea {
+            width: 100%;
+            padding: 10px;
+            margin-top: 5px;
+            margin-bottom: 15px;
+            background-color: #333;
+            border: 1px solid #555;
+            color: #fff;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="container">
+        <!-- HEADER -->
+        <header class="header">
+            <div class="frame">
+                <img class="j" src="img/j.png" alt="Logo J" width="40" />
+            </div>
+            <div class="navbar">
+                <a href="#about"><span class="text-wrapper">About me</span></a>
+                <a href="#services"><span class="text-wrapper">Services</span></a>
+                <a href="#portfolio"><span class="text-wrapper">Portfolio</span></a>
+                <a href="#contact"><span class="text-wrapper">Contact</span></a>
+            </div>
+        </header>
+
+        <!-- HERO SECTION -->
+        <div class="section">
+            <div class="group">
+                <div class="div">
+                    <p class="HELLO"><span class="span">HELLO</span></p>
+                    <img class="rectangle" src="img/rectangle-3.png" alt="Line under Hello" />
+                </div>
+                <p class="i-m-john-doe">
+                    <span class="text-wrapper-2">I’m</span>
+                    <span class="text-wrapper-3"> John Doe</span>
+                </p>
+                <img class="this-is-my-very-own" src="img/this-is-my-very-own-first-page-that-i-made-during-CII-course.png" alt="Subtitle text" />
+                <div class="group-2">
+                    <div class="rectangle-2"></div>
+                    <p class="contact-me"><span class="text-wrapper-4">Contact me</span></p>
+                </div>
+            </div>
+            <img class="hero-img" src="img/hero-img-1.png" alt="Hero portrait of John Doe" width="300" />
+        </div>
+
+        <!-- ABOUT ME SECTION -->
+        <div class="section" id="about">
+            <div class="frame">
+                <img class="rectangle" src="img/rectangle-5.svg" alt="Rectangle background" />
+                <div class="group">
+                    <div class="div"></div>
+                    <p class="view-works"><span class="text-wrapper">View works</span></p>
+                </div>
+                <div class="group-2">
+                    <div class="rectangle-2"></div>
+                    <img class="download-CV" src="img/download-CV.png" alt="Download CV button graphic" />
+                </div>
+                <p class="lorem-ipsum-dolor">
+                    <span class="span">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.<br /><br />Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nu pariatur excepteur sint occaecat.</span>
+                </p>
+                <img class="about-shap-bg" src="img/about-shap-bg-1.png" alt="About shape background" />
+                <img class="img" src="img/rectangle-6.png" alt="About layout frame" />
+                <img class="about-me" src="img/about-me.svg" alt="About me title graphic" />
+            </div>
+        </div>
+
+        <!-- SERVICES SECTION -->
+        <div class="section" id="services">
+            <div class="frame">
+                <div class="rectangle"></div>
+                <p class="excepteur-sint">
+                    <span class="text-wrapper">Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Sed ut perspiciatis unde omnis iste natur</span>
+                </p>
+                <p class="services"><span class="span">Services</span></p>
+                
+                <!-- Service 1: UX Research -->
+                <div class="services-box" style="background-image: url('img/rectangle-8.png');">
+                    <img class="phone-icon" src="img/phone-icon-1.png" alt="Phone Icon" width="30" />
+                    <p class="UX-research"><span class="text-wrapper-2">UX Research</span></p>
+                    <p class="duis-aute-irure"><span class="text-wrapper-3">Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat</span></p>
+                </div>
+
+                <!-- Service 2: App Design -->
+                <div class="services-box" style="background-image: url('img/rectangle-10.png');">
+                    <img class="phone-icon" src="img/phone-icon-1-2.png" alt="App Icon" width="30" />
+                    <p class="app-design"><span class="text-wrapper-2">App Design</span></p>
+                    <p class="duis-aute-irure"><span class="text-wrapper-3">Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat</span></p>
+                </div>
+
+                <!-- Service 3: Web Development -->
+                <div class="services-box" style="background-image: url('img/rectangle-9.png');">
+                    <img class="code-icon" src="img/image.png" alt="Web Dev Icon" width="30" />
+                    <p class="web-development"><span class="text-wrapper-2">Web Development</span></p>
+                    <p class="duis-aute-irure"><span class="text-wrapper-3">Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat</span></p>
+                </div>
+
+                <!-- Service 4: Web Design -->
+                <div class="services-box" style="background-image: url('img/rectangle-12.png');">
+                    <img class="code-icon" src="img/code-icon-1.png" alt="Web Design Icon" width="30" />
+                    <p class="web-design"><span class="text-wrapper-2">Web Design</span></p>
+                    <p class="duis-aute-irure"><span class="text-wrapper-3">Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat</span></p>
+                </div>
+            </div>
+        </div>
+
+        <!-- CONTACT SECTION -->
+        <div class="section" id="contact">
+            <div class="frame">
+                <div class="rectangle"></div>
+                <p class="contact-info"><span class="text-wrapper">Contact info</span></p>
+                <p class="follow-me"><span class="text-wrapper">Follow me</span></p>
+                <div class="group">
+                    <p class="contact-me"><span class="span">Contact me</span></p>
+                    <img class="img" src="img/rectangle-14.png" alt="Underline for contact me" />
+                </div>
+                <p class="aspira"><span class="text-wrapper-2">Aspira</span></p>
+                <div class="div">
+                    <p class="element"><span class="text-wrapper-2">+385 91 123 456</span></p>
+                    <p class="element"><span class="text-wrapper-2">+385 91 123 456</span></p>
+                </div>
+                <p class="www-mojadomena-com"><span class="text-wrapper-2">www.mojadomena.com</span></p>
+                <p class="marin-ivandic-aspira"><span class="text-wrapper-2">marin.ivandic</span>
+                    <a href="mailto:jakov.melvan@gmail.com" target="_blank" rel="noopener noreferrer"><span class="text-wrapper-2">@aspira.com</span></a>
+                </p>
+
+                <!-- FORM INPUTS -->
+                <div class="input">
+                    <p class="span-wrapper"><span class="text-wrapper-3">NAME</span></p>
+                    <input type="text" placeholder="Type your name" />
+                </div>
+                <div class="input-3">
+                    <p class="span-wrapper"><span class="text-wrapper-3">PHONE NUMBER</span></p>
+                    <input type="text" placeholder="Type your phone number" />
+                </div>
+                <div class="input-4">
+                    <p class="span-wrapper"><span class="text-wrapper-3">EMAIL</span></p>
+                    <input type="text" placeholder="Type your email address" />
+                </div>
+                <div class="input-2">
+                    <p class="span-wrapper"><span class="text-wrapper-3">MESSAGE</span></p>
+                    <textarea placeholder="Type your message"></textarea>
+                </div>
+                
+                <div class="group-2">
+                    <button type="button"><span class="text-wrapper-4">SEND MESSAGE</span></button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+</body>
+</html>
